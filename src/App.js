@@ -1,4 +1,5 @@
 import './App.css';
+import Header from './Header';
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <h1>Hello Let' build youtube</h1>
 
         {/* Header <Header/> */}
-          
+          <Header/> 
         {/* Sidebar <Sidebar/> */}
 
         {/* RecpmandedVideo */}
