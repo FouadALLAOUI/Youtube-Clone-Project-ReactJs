@@ -13,7 +13,7 @@ function App() {
           <Header/> 
           <div className='app_page'>
             {/* Sidebar <Sidebar/> */}
-            <Sidebar/>          
+            <Sidebar />          
             {/* RecommendedVideos */}
             <RecommendedVideos/>
           </div>      
