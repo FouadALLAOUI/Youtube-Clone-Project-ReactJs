@@ -1,5 +1,7 @@
 import './App.css';
 import Header from './Header';
+import Sidebar from './Sidebar';
+import RecommendedVideos from './RecommendedVideos';
 
 function App() {
   return (
@@ -9,10 +11,12 @@ function App() {
 
         {/* Header <Header/> */}
           <Header/> 
-        {/* Sidebar <Sidebar/> */}
-
-        {/* RecpmandedVideo */}
-        
+          <div className='app_page'>
+            {/* Sidebar <Sidebar/> */}
+            <Sidebar/>          
+            {/* RecommendedVideos */}
+            <RecommendedVideos/>
+          </div>      
 
     </div>
   );
