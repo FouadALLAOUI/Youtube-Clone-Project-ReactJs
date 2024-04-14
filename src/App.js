@@ -18,7 +18,6 @@ function App() {
           <Route path="/search/:searchTerm">
             <h1>Search page </h1>
 
-
           </Route>
           <Route path='/'>
             <div className='app_page'>
