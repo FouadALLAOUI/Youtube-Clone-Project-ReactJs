@@ -9,28 +9,25 @@ function App() {
   return (
     //BEM class naming convention
     <div className="App">
-          {/*<h1>Hello Let' build youtube</h1>*/}
-           
-          <Router>
-              <Switch>
-                <Route path='/'>
-                  <h1>Home page</h1>
-                </Route>
-              </Switch>
-          </Router>
-           
-          
-          
+      {/*<h1>Hello Let' build youtube</h1>*/}
 
-          {/* Header <Header/> 
-          <Header/> 
-          <div className='app_page'>
-            <Sidebar />          
-            <RecommendedVideos/>
-          </div> 
-          */}
-          
+      <Router>
+        {/* Header <Header/> */}
+        <Header />
+        <Switch>
+          <Route path="/search/:searchTerm">
+            <h1>Search page </h1>
 
+
+          </Route>
+          <Route path='/'>
+            <div className='app_page'>
+              <Sidebar />
+              <RecommendedVideos />
+            </div>
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
