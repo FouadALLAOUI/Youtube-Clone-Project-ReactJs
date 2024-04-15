@@ -3,7 +3,7 @@ import Header from './Header';
 import Sidebar from './Sidebar';
 import SearchPage from './SearchPage';
 import RecommendedVideos from './RecommendedVideos';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, Routes } from "react-router-dom";
 
 
 function App() {
